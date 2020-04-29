@@ -1,0 +1,16 @@
+{
+  "name": "denali-icons-svg",
+  "version": "0.1.0",
+  "description": "Denali Icons consists of 1000+ icons crafted by the Denali team. This package gives users access to one svg file that includes all icons.",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-svg-symbols": "^3.2.3"
+  },
+  "dependencies": {
+    "gulp-live-server": "0.0.31",
+    "gulp-rename": "^2.0.0",
+    "gulp-serve": "^1.4.0"
+  }
+}

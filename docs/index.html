@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Denali Icon SVG Library</title>
+  <!-- Denali -->
+  <link rel="stylesheet" href="css/denali.css">
+  <!-- Style for page -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="">
+  
+  <div class="results-container">
+    <div class="navbar">
+      <div class="brand">
+        <img src="images/logo-dark.png" alt="">
+        <span class="chips is-small is-grey-100 has-bg-brand-300 is-bold m-l-10">SVG Icons</span>
+      </div>
+    </div>
+    <iframe class="results"  id="code"></iframe>
+  </div>
+
+  <div class="resize-container"></div>
+
+  <div class="code-container">
+    <div class="navbar">
+      <div class="input-group is-medium">
+        <label>HTML Code</label>
+      </div>
+      <a 
+        href="https://denali.design/docs/1.0.3/aesthetics/icons" 
+        target="_blank"
+        class="button is-outline is-inverse is-medium">Icon Docs
+        <svg class="d-icon is-extrasmall fill-grey-100">
+          <use xlink:href="../dist/denali-icons-svg.svg#external"></use>
+        </svg></a>
+    </div>
+
+<textarea class="code"  id="html" placeholder="HTML">
+<!-- Link from external file -->
+<!-- This only works on served sites -->
+<svg class="d-icon">
+  <use xlink:href="../dist/denali-icons-svg.svg#add-circle"></use>
+</svg>
+
+<br>
+
+<!-- Apply color -->
+<svg class="d-icon fill-red-500">
+  <use xlink:href="../dist/denali-icons-svg.svg#angular"></use>
+</svg>
+
+<br>
+
+<!-- Apply size and color -->
+<svg class="d-icon is-large fill-orange-400">
+  <use xlink:href="../dist/denali-icons-svg.svg#diamond"></use>
+</svg>
+</textarea>
+
+    <div class="footer">
+      <button class="new-button" onclick="copyCode()">
+        <svg class="d-icon">
+          <use xlink:href="../dist/denali-icons-svg.svg#duplicate"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

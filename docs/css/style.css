@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 900px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+/* For Page */
+.results-container {
+    width: 56%;
+    height: calc(100vh - 40px);
+    margin: 20px;
+    margin-right: 0px;
+}
+
+@media (max-width: 900px) {
+    .results-container {
+        width: calc(100% - 40px);
+        height: auto;
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+.results {
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+@media (max-width: 900px) {
+    .results {
+        padding: 40px 0px;
+    }
+}
+
+.resize-container {
+    width: 22px;
+    height: 100vh;
+    position: relative;
+    cursor: col-resize;
+}
+
+@media (max-width: 900px) {
+    .resize-container {
+        display: none;
+    }
+}
+
+/* .resize-container:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    background: #d5d5d5;
+    border-radius: 2px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-40px);
+} */
+
+.code-container {
+    background: #23241f;
+    width: calc(44% - 22px);
+    height: calc(100vh - 40px);
+    margin: 20px;
+    margin-left: 0px;
+    border-radius: 14px;
+    overflow: hidden;
+    outline: transparent;
+}
+
+@media (max-width: 900px) {
+    .code-container {
+        width: calc(100% - 40px);
+        height: auto;
+        margin: 20px;
+    }
+}
+
+.code {
+    width: 100%;
+    height: calc(100% - 60px - 52px);
+    overflow: auto;
+    background-color: transparent;
+    color: white;
+    border: none;
+    resize: none;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+    .code {
+        height: max-content;
+        min-height: calc(100vh - 100px - 52px);
+    }
+}
+
+.code:focus {
+    outline: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img {
+    width: auto;
+    height: 34px;
+}
+
+.footer {
+    height: 52px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 20px;
+}
+
+.code-container > .navbar {
+    background-color: rgba(255, 255, 255, 0.06);
+    color: white;
+}
+
+.new-button {
+    width: 36px;
+    height: 32px;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-button > .d-icon {
+    width: 22px;
+    height: 22px;
+    fill: #8AC5ED;
+}
+
