@@ -14,12 +14,21 @@
   
   <div class="results-container">
     <div class="navbar">
-      <div class="brand">
-        <img src="images/logo-dark.png" alt="">
-        <span class="chips is-small is-grey-100 has-bg-brand-300 is-bold m-l-10">SVG Icons</span>
+      <div class="nav-left">
+        <div class="brand">
+          <img src="images/logo-dark.png" alt="">
+          <span class="chips is-small is-grey-100 has-bg-brand-300 is-bold m-l-10">SVG Icons</span>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button class="button is-text has-icon" id="share-link">
+          <svg class="d-icon fill-brand-300">
+            <use xlink:href="../dist/denali-icons-svg.svg#share"></use>
+          </svg>
+        </button>
       </div>
     </div>
-    <iframe class="results"  id="code"></iframe>
+    <iframe class="results" id="preview-container"></iframe>
   </div>
 
   <div class="resize-container"></div>
@@ -68,7 +77,10 @@
       </button>
     </div>
   </div>
-
+  
+  <script type="text/javascript" src="https://unpkg.com/lz-string@1.4.4/libs/lz-string.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/qs@6.9.6/dist/qs.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/clipboard@2.0.6/dist/clipboard.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
