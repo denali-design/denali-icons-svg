@@ -1,3 +1,9 @@
+## :warning: Deprecated in favor of the consolidation of Denali's icon repositories - please use [denali-icons](https://github.com/denali-design/denali-icons) 
+
+This repository is no longer maintained.
+
+---
+
 # Denali Icons SVG
 
 ## Table of contents
@@ -80,10 +86,7 @@ To start contributing to Denali, have a look at our guidelines, as well as point
 
 ## Maintainers
 
-- **Jay Torres** | _Dir Product Design for Core Platforms_ (torresr@verizonmedia.com)
-- **Chas Turansky** | _Product Designer & Front-End Dev_ (cturansky@verizonmedia.com)
-- **Jazmin Orozco** | _Product Designer_ (jorozco@verizonmedia.com)
-- **Marco Sandoval** | _Product Designer_ (msandoval@verizonmedia.com)
+This repository is not currently being maintained please use [denali-icons](https://github.com/denali-design/denali-icons) for the latest.
 
 ## License
 
